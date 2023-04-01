@@ -1,23 +1,41 @@
-# TicTacToe
-Tic Tac Toe Game
+
+# TicTacToe 
+
 This is a simple command-line based Tic Tac Toe game written in Java. The game allows two players to play against each other and the first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the game.
 
-Getting Started
-Prerequisites
+
+# Getting Started
+## Prerequisites
 Java installed on your machine
 A command-line interface (e.g., Terminal on macOS, Command Prompt on Windows)
-Installation and Running the game
-Download the TicTacToe.java file from this repository to your computer.
-Open a command-line interface and navigate to the directory where the file is saved.
-Compile the file by typing javac TicTacToe.java in the command-line interface and hit enter.
-Run the game by typing java TicTacToe and hit enter.
-The game will start and you can play against another player by following the instructions provided in the command-line interface.
-How to Play
-When prompted, enter the row and column numbers where you want to place your mark (X or O).
-The board will be printed on the command line with the current status of the game.
-The game continues until one of the players wins by getting three of their marks in a row, or the board is full and there is no winner.
-License
+
+
+## How to Run
+Install Java on your machine.
+Download the TicTacToe.java file from this repository.
+Open a terminal window and navigate to the directory where you saved the file.
+Compile the file by running the command javac TicTacToe.java.
+Run the game by running the command java TicTacToe.
+Follow the prompts to play the game.
+
+
+
+## Future Improvements
+Add a graphical user interface (GUI) for a more user-friendly experience.
+Implement an AI opponent for single-player mode.
+Keep track of player statistics (wins, losses, ties).
+Allow for customizable game settings (board size, number of players, etc.).
+
+
+## How to Play
+
+The game is played on a 3x3 grid.
+Players take turns placing their symbol (X or O) on an empty cell on the grid.
+The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+If all the cells are filled and no player has won, the game is a tie.
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 This game is inspired by the traditional paper-and-pencil game Tic Tac Toe. Special thanks to my Java programming instructor for teaching me the basics of Java programming.
