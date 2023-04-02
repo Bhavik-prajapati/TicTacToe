@@ -34,36 +34,10 @@ Players take turns placing their symbol (X or O) on an empty cell on the grid.
 The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
 If all the cells are filled and no player has won, the game is a tie.
 
-   0   1   2 
-0    |   |
-  ---+---+---
-1    |   |
-  ---+---+---
-2    |   |
-Plater X enter:
-0 0 
-   0   1   2
-0  X |   |
-  ---+---+---
-1    |   |
-  ---+---+---
-2    |   |
-Plater 0 enter:
-0 2
-   0   1   2
-0  X |   | 0
-  ---+---+---
-1    |   |
-  ---+---+---
-2    |   |
-Plater X enter:
-Player 0 has won..
-   0   1   2
-0  X | 0 | 0
-  ---+---+---
-1    | 0 |
-  ---+---+---
-2  X |   | X
+## Screenshots
+
+![App Screenshot](https://postimg.cc/DWR3mby5)
+
 
 
 ## License
